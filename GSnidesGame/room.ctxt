@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=room
+comment1.params=
+comment1.target=room()
+comment1.text=\r\n\ sets\ up\ the\ room\ to\ be\ made\r\n
+comment2.params=
+comment2.target=java.lang.String\ createDescription()
+comment2.text=\r\n\ \r\n\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ getDesc()
+comment4.params=
+comment4.target=int\ isOrc()
+comment5.params=
+comment5.target=void\ killOrc()
+numComments=6

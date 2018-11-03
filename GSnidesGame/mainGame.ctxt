@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=mainGame
+comment1.params=
+comment1.target=mainGame()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ mainGame\r\n
+comment2.params=newRoom
+comment2.target=void\ changeRoom(int)
+comment3.params=
+comment3.target=void\ incrementRoom()
+comment4.params=
+comment4.target=void\ decrementRoom()
+comment5.params=
+comment5.target=int\ getCurrentRoomNum()
+comment6.params=
+comment6.target=Floor\ getFloor()
+comment7.params=thisRoom
+comment7.target=void\ killOrcInRoom(int)
+comment8.params=
+comment8.target=void\ displayRoom()
+comment8.text=\r\n\ Displays\ the\ room\ the\ player\ is\ in\r\n
+comment9.params=
+comment9.target=int\ getNum()
+numComments=10

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Floor
+comment1.params=
+comment1.target=Floor()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Floor\r\n
+comment2.params=thisRoom
+comment2.target=void\ killThisOrc(int)
+comment3.params=
+comment3.target=int\ getSize()
+numComments=4
