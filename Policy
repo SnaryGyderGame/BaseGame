@@ -1,0 +1,35 @@
+//*******************************************************************
+// Policy class
+//*******************************************************************
+
+
+// one class needs to have a main() method
+public class Policy
+{
+  private int cost;//initial cost of the policy
+  private String name;//the name of the policy
+  private String description;//the description of the policy
+  private double[] factors;//How the policy affects other stuff
+  public Policy() {
+  }
+  public void changeName(String newName) { // changes the name of the policy
+    name = newName;
+  }
+  public void changeDesc(String newDesc) {// gets a new description and implements it
+    description = newDesc;
+  }
+  public void changeFactor(int factorNum, double effect) {//replaces the current factorNum with the new effect
+   factors[factorNum] = effect; 
+  }
+  public void changeCost(int newCost) {
+   cost = newCost; 
+  }
+  public void changeFactors(int[] newFactors) {
+    factors = newFactors;
+  }
+  public int getCost() return cost;
+  public String getName() return name;
+  public String getDesc() return description;
+  public double getFactor(int factor) return factors[factor];
+  public double[] getFactors() return factors;
+}
