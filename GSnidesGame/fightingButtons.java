@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 public class fightingButtons extends JFrame implements ActionListener {
-
+    private int num;
     private JButton button1;
     private JButton button2;
     private JButton button3;
@@ -30,7 +30,7 @@ public class fightingButtons extends JFrame implements ActionListener {
         button3.setBounds(50,150,150,30);  
         this.button3.addActionListener(this);
         
-        this.button4 = new JButton("Give tiger time");
+        this.button4 = new JButton("Give eight minute break");
         button4.setBounds(200,150,150,30);  
         this.button4.addActionListener(this);
         
@@ -50,10 +50,15 @@ public class fightingButtons extends JFrame implements ActionListener {
         button5.setVisible(false);
     }
 
-    public static void main(String[] args) {
-        fightingButtons calc = new fightingButtons();
+    public int main() {
+        WalkingButtons calc = new WalkingButtons();
+        while (num == 0) {
+        }
+        return attackType();
     }
-
+    public int attackType() {
+        return num;
+    }
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == button1) {
             if(button3.isVisible() == true) {
@@ -69,8 +74,17 @@ public class fightingButtons extends JFrame implements ActionListener {
             
         }
         if(e.getSource() == button2)this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
-        if(e.getSource() == button3);
+        if(e.getSource() == button3)
+        {
+            num = 1;
+        }
+        if(e.getSource() == button4)
+        {
+            num = 2;
+        }
+        if(e.getSource() == button5)
+        {
+            num = 3;
+        }
     }
- 
-
 }
